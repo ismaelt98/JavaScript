@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.instrument-container {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #023e8a;
+}

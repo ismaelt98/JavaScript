@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Hero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container hidden">
+        <div class="menu-container">
+            <h1>Guitar Hero</h1>
+            <button id="start-button">Jugar</button>
+        </div>
+        <div class="game-container">
+        <div class="notes">
+            <!-- Notas musicales que caen -->
+            <div class="note" data-key="81"></div>
+            <div class="note" data-key="87"></div>
+            <div class="note" data-key="69"></div>
+            <div class="note" data-key="82"></div>
+            <div class="note" data-key="84"></div>
+            <div class="note" data-key="89"></div>
+            <div class="note" data-key="65"></div>
+            <div class="note" data-key="83"></div>
+            <div class="note" data-key="68"></div>
+            <div class="note" data-key="70"></div>
+            <div class="note" data-key="71"></div>
+            <div class="note" data-key="72"></div>
+            <!-- Agrega más notas según sea necesario -->
+        </div>
+        <div class="keyboard">
+            <!-- Teclas correspondientes a las notas -->
+            <div class="key" data-key="Q">Q</div>
+            <div class="key" data-key="W">W</div>
+            <div class="key" data-key="E">E</div>
+            <div class="key" data-key="R">R</div>
+            <div class="key" data-key="T">T</div>
+            <div class="key" data-key="Y">Y</div>
+            <div class="key" data-key="A">A</div>
+            <div class="key" data-key="S">S</div>
+            <div class="key" data-key="D">D</div>
+            <div class="key" data-key="F">F</div>
+            <div class="key" data-key="G">G</div>
+            <div class="key" data-key="H">H</div>
+            <!-- Agrega más teclas correspondientes a las notas -->
+
+        </div>
+    </div>
+    <audio data-key="81" src="sonidos/05.mp3"></audio>
+    <audio data-key="87" src="sonidos/010.mp3"></audio>
+    <audio data-key="69" src="sonidos/015.mp3"></audio>
+    <audio data-key="82" src="sonidos/020.mp3"></audio>
+    <audio  data-key="84" src="sonidos/025.mp3"></audio>
+    <audio  data-key="89" src="sonidos/030.mp3"></audio>
+    <audio  data-key="65" src="sonidos/035.mp3"></audio>
+    <audio  data-key="83" src="sonidos/040.mp3"></audio>
+    <audio  data-key="68" src="sonidos/045.mp3"></audio>
+    <audio  data-key="70" src="sonidos/050.mp3"></audio>
+    <audio  data-key="71" src="sonidos/055.mp3"></audio>
+    <audio  data-key="72" src="sonidos/1.mp3"></audio>
+    <!-- Agrega más archivos de sonido según sea necesario -->
+    <script src="script.js"></script>
+</body>
+</html>

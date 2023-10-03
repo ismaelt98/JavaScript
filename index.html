@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Arrays con Iconos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Añadir items</h1>       
+        <input type="text" id="inputItem" placeholder="Nuevo elemento">
+        <input type="number" id="inputIndex" placeholder="Posición">
+        <button id="pushButton"><i class="fas fa-plus"></i> Push</button>
+        <button id="unshiftButton"><i class="fas fa-arrow-up"></i> Unshift</button>
+        <button id="insertAtButton"><i class="fas fa-sign-in-alt"></i> Insert at</button>    
+    </div>
+    <div class="container">
+        <h1>Eliminar items</h1>
+        <input type="number" id="inputIndexRemove" placeholder="Posición a eliminar">
+        <button id="popButton"><i class="fas fa-minus"></i> Pop</button>
+        <button id="shiftButton"><i class="fas fa-arrow-down"></i> Shift</button>
+        <button id="removeAtButton"><i class="fas fa-times"></i> Remove at</button>
+        <p>[]: <span id="arrayDisplay"></span></p>
+    </div>
+
+    <script src="ejercicio10.js" ></script>
+</body>
+</html>

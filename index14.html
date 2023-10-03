@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Bombilla</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="bombilla-contenedor">
+        <img class="bombilla" src="off.jpg" alt="Bombilla Apagada">
+        <img class="interruptor" src="boff.jpg" alt="Interruptor Off">
+    </div>
+
+    <input type="range" id="tamaño-bombilla" min="50" max="200" value="100">
+    <input type="range" id="intensidad-luz" min="0" max="100" value="50">
+    <input type="range" id="rotacion-bombilla" min="0" max="360" value="0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ejercicio14.js"></script>
+</body>
+</html>

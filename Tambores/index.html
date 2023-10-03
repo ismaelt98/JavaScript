@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos Musicales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="instrument-container">
+        <!-- Botón con imagen de tambor -->
+        <button class="drum-button" data-key="65">
+            <img src="images/1.webp" alt="Tambor">
+            A
+        </button>
+
+        <!-- Botón con imagen de piano -->
+        <button class="piano-button" data-key="83">
+            <img src="images/2.webp" alt="Piano">
+            S
+        </button>
+
+        <!-- Botón con imagen de guitarra -->
+        <button class="guitar-button" data-key="68">
+            <img src="images/3.webp" alt="Guitarra">
+            D
+        </button>
+
+        <!-- Botón adicional con imagen y sonido -->
+        <button class="new-button" data-key="70">
+            <img src="images/4.webp" alt="Nuevo">
+            F
+        </button>
+
+        <!-- Botón adicional con imagen y sonido -->
+        <button class="extra-button" data-key="71">
+            <img src="images/5.webp" alt="Extra">
+            G
+        </button>
+    </div>
+    <audio data-key="65" src="sounds/Darbuka_06_76_SP.mp3"></audio>
+    <audio data-key="83" src="sounds/Darbuka_105_76_SP.mp3"></audio>
+    <audio data-key="68" src="sounds/Darbuka_118_76_SP.mp3"></audio>
+    <audio data-key="70" src="sounds/Darbuka_42_76_SP.mp3"></audio>
+    <audio data-key="71" src="sounds/Darbuka_66_76_SP.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
